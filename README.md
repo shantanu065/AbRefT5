@@ -18,22 +18,22 @@
 conda env create -f env.yml
 conda activate abrefT5
 # or: pip install -r requirements.txt
-
+```
 🚀 Quickstart
-
+```
 python -m abrefT5.inference \
   --vh_seq QVQLVESGGGLVQAGGSLRLSCAASG... \
   --vl_seq ELVMTQSPASLSVSVGETVTITCRAS... \
   --init_pdb path/to/initial.pdb \
   --out_pdb refined.pdb
-
+```
 📊 Metrics to track
 
-    lDDT-Cα, backbone RMSD (FR vs CDRs)
+  lDDT-Cα, backbone RMSD (FR vs CDRs)
 
-    χ1/χ2 accuracy, clashscore, MolProbity
+  χ1/χ2 accuracy, clashscore, MolProbity
 
-    (Optional) interface RMSD/fnat if antigen present
+  (Optional) interface RMSD/fnat if antigen present
 
 🔬 Citation
 
