@@ -1,0 +1,7 @@
+transformers>=4.40
+torch
+numpy
+pandas
+einops
+biopython
+tqdm
