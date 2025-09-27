@@ -16,8 +16,9 @@ dependencies = [
   "pandas",
   "einops",
   "biopython",
-  "tqdm"
+  "tqdm",
   "sentencepiece>=0.1.99",
+  "anarci",
 ]
 
 [tool.setuptools]
@@ -25,4 +26,3 @@ package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
-
